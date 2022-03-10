@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class CambiarEscena : MonoBehaviour
 {
-    public void LoadScene()
+    public void LoadScene(string sceneName)
     {
-        Debug.Log("QUEPASAAAA");
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void CerrarApp()
+    {
+        Application.Quit();
+        Debug.Log("Saliste de la app");
     }
     
     void Update()
@@ -16,7 +22,7 @@ public class CambiarEscena : MonoBehaviour
         {
             Touch touch = Input.GetTouch(0);
             Debug.Log(touch);
-            SceneManager.LoadScene("SampleScene");
+            // SceneManager.LoadScene("SampleScene");
             
         }
     }

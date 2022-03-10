@@ -16,7 +16,7 @@ public class PantallaCarga : MonoBehaviour
     void Update()
     {
         tiempo = tiempo + Time.deltaTime;
-        if (tiempo >= 5)
+        if (tiempo >= 2)
         {
             SceneManager.LoadScene("Menu");
         }
