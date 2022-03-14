@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 65fb9224ebad6a04198c94a0fb999f52
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Modelo-Hombre.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Modelo-Mujer.unity
+    guid: 028f9ba6b263352408ac8d871c33363e
   m_configObjects: {}
