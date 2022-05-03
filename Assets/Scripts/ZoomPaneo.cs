@@ -24,24 +24,9 @@ public class ZoomPaneo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // if(Input.GetMouseButtonDown(0)) {
-        //     // multiTouch = false;
-        //     touchStar = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        // }
-        // if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
-        // {
-        // Ray ray = Camera.main.ScreenPointToRay(Input.touches[0].position);
-        // RaycastHit hit;
 
-        // if (Physics.Raycast(ray, out hit))
-        //     {
-        //         if (hit.transform.tag == "Modelo"|| hit.transform.tag == "Organo" )
-        //         {
-        //             Debug.Log("ESTO ES UN MODELO");
-        //         }
-        //     }
-        // }
-        if(Input.touchCount == 0 ) {
+        if(OrganoActivo.info == false) {
+            if(Input.touchCount == 0 ) {
                 
                 paneo = true;
         }
@@ -91,11 +76,9 @@ public class ZoomPaneo : MonoBehaviour
 
             Camera.main.fieldOfView -= difference * velocidadZoom;
             Camera.main.fieldOfView = Mathf.Clamp(Camera.main.fieldOfView, Limites.x, Limites.y);
-        } // else if(Input.GetMouseButton(0)) {
-        //     Vector3 direction = touchStar - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        //     Camera.main.transform.position += direction;
-        // }
-        // Zoom(Input.GetAxis("Mouse ScrollWheel"));
+        }
+        }
+
     }
 
     private Vector3 GetWorldPosition(float z){
@@ -106,8 +89,5 @@ public class ZoomPaneo : MonoBehaviour
         return mousePos.GetPoint(distance);
     }
 
-    // void Zoom(float increment) {
-    //     Camera.main.fieldOfView = Mathf.Clamp(Camera.main.fieldOfView - increment, zoomOutMin, zoomOutMax);
 
-    // }
 }

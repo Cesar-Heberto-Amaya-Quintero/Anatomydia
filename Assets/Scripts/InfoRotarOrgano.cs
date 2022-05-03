@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotarOrgano : MonoBehaviour
+public class InfoRotarOrgano : MonoBehaviour
 {
-    public bool isActive = false;
-    Color activeColor = new Color();
     // Start is called before the first frame update
     void Start()
     {
@@ -15,12 +13,7 @@ public class RotarOrgano : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(OrganoActivo.info == false) {
-        if (isActive)
-        {
-            activeColor = Color.red;
-
-            if (Input.touchCount == 1)
+        if (Input.touchCount == 2)
             {
                 Touch screenTouch = Input.GetTouch(0);
 
@@ -30,19 +23,6 @@ public class RotarOrgano : MonoBehaviour
                     transform.Rotate(screenTouch.deltaPosition.y, 0f, 0);
                 }
 
-                if (screenTouch.phase == TouchPhase.Ended)
-                {
-                    isActive = false;
-                }
             }
-        }
-        else
-        {
-            activeColor = Color.white;
-        }  
-
-        GetComponent<MeshRenderer>().material.color = activeColor;
-        }
-        
     }
 }
