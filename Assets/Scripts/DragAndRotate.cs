@@ -16,7 +16,8 @@ public class DragAndRotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isActive)
+        if(OrganoActivo.info == false) {
+            if (isActive)
         {
             activeColor = Color.red;
 
@@ -43,4 +44,6 @@ public class DragAndRotate : MonoBehaviour
 
         GetComponent<MeshRenderer>().material.color = activeColor;
     }
+        }
+        
 }

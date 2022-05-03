@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class OrganoActivo : MonoBehaviour
 {
+    public GameObject infoCerebro;
+    public static bool info = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,15 @@ public class OrganoActivo : MonoBehaviour
                 {
                     var objectScript = hit.collider.GetComponent<RotarOrgano>();
                     objectScript.isActive = !objectScript.isActive;
+                }
+
+                if (hit.transform.tag == "Cerebro" && info ==false )
+                {
+                    Debug.Log("SELECCIONASTE CEREBRO");
+                    
+                    Instantiate(infoCerebro, new Vector3(0,0,0), Quaternion.identity);
+                    info = true;
+                    Debug.Log(info);
                 }
             }
         }

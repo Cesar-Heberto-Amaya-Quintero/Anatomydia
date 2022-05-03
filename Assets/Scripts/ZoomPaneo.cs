@@ -89,7 +89,7 @@ public class ZoomPaneo : MonoBehaviour
 
             // Zoom(difference * 0.0001f);
 
-            Camera.main.fieldOfView += difference * velocidadZoom;
+            Camera.main.fieldOfView -= difference * velocidadZoom;
             Camera.main.fieldOfView = Mathf.Clamp(Camera.main.fieldOfView, Limites.x, Limites.y);
         } // else if(Input.GetMouseButton(0)) {
         //     Vector3 direction = touchStar - Camera.main.ScreenToWorldPoint(Input.mousePosition);
