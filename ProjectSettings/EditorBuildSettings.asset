@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: ac1815c4c678fca4ea0c5b34203bf811
+  - enabled: 1
+    path: Assets/Scenes/Pregunta2.unity
+    guid: 8ca990d780d476a4c8b2f24b470df1dd
+  - enabled: 1
+    path: Assets/Scenes/Pregunta3.unity
+    guid: 7131faf1447eb8e41afb2ad72b6dd5de
+  - enabled: 1
+    path: Assets/Scenes/Pregunta4.unity
+    guid: db1c2dec310fa894790533e665b6d9aa
   m_configObjects: {}
