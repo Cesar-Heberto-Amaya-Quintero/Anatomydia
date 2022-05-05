@@ -7,6 +7,16 @@ TagManager:
   - Modelo
   - Organo
   - Cerebro
+  - Bazo
+  - Pancreas
+  - Higado
+  - Estomago
+  - Intestinos
+  - Pene
+  - Vejiga
+  - Rinon
+  - Utero
+  - Pulmon
   layers:
   - Default
   - TransparentFX

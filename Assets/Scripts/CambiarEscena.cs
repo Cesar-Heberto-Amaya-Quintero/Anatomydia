@@ -7,6 +7,14 @@ public class CambiarEscena : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     {
+        OrganoActivo.info = true;
+        Debug.Log(RespuestaCorrecta.respuestasCorrectas);
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void SalirQuiz(string sceneName)
+    {
+        RespuestaCorrecta.respuestasCorrectas = 0;
         Debug.Log(RespuestaCorrecta.respuestasCorrectas);
         SceneManager.LoadScene(sceneName);
     }

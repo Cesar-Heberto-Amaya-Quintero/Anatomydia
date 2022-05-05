@@ -942,6 +942,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   infoCerebro: {fileID: 2426287317901792838, guid: a7ef7d8ebe572e64db8494c5bc6d0464, type: 3}
+  infoBazo: {fileID: 3716082631639002245, guid: c2ce0fcc309bafc4da16e4e6c8a84307, type: 3}
+  infoPancreas: {fileID: 231308248230243438, guid: ac178fe521df4d34d824c88b4b089df1, type: 3}
+  infoHigado: {fileID: 1722354469753053447, guid: 9bdbfb2f3b7715243b6451d4e72f72c6, type: 3}
+  infoPulmon: {fileID: 6855906446312590741, guid: 4c4144e56101827429abf3db54b58cbb, type: 3}
+  infoEstomago: {fileID: 3687678778548908812, guid: bd02e04a0a260b9448209e4ebfc624af, type: 3}
+  infoIntestinos: {fileID: 6614387706876765222, guid: 49929346d5d215846a0c96fa0cdac329, type: 3}
+  infoPene: {fileID: 810948918687301028, guid: 5abc4b84ce9400048babdd5a11acde73, type: 3}
+  infoUtero: {fileID: 360056780260538593, guid: afe2033ff1c891b40be3bf89a8ab15a0, type: 3}
+  infoVejiga: {fileID: 2361285766151491346, guid: a4d064c3fc8b2af4e865fac58841185d, type: 3}
+  infoRinon: {fileID: 2561176998616684514, guid: 1ecbfda12177e1741a4e81d827babff5, type: 3}
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,7 +1038,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f1c00fe23b1c01344a79123431d9d0d8, type: 3}
       propertyPath: m_TagString
-      value: Cerebro
+      value: Rinon
       objectReference: {fileID: 0}
     - target: {fileID: 4338066540785126530, guid: f1c00fe23b1c01344a79123431d9d0d8, type: 3}
       propertyPath: m_LocalScale.x

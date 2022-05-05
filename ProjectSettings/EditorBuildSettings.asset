@@ -29,4 +29,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pregunta4.unity
     guid: db1c2dec310fa894790533e665b6d9aa
+  - enabled: 1
+    path: Assets/Scenes/Pregunta5.unity
+    guid: 6bf56c145f00bfc4a9213f21263a3554
+  - enabled: 1
+    path: Assets/Scenes/Pregunta6.unity
+    guid: d33e7679c7c3c9f41bcec2a32c2d1a84
+  - enabled: 1
+    path: Assets/Scenes/Pregunta7.unity
+    guid: cee875e20f6c93341addaa0a9b329f1b
+  - enabled: 1
+    path: Assets/Scenes/Pregunta8.unity
+    guid: 0d3c1ea6141528948adbc917135ae268
+  - enabled: 1
+    path: Assets/Scenes/Pregunta9.unity
+    guid: 69500b4c5fa89934ab8e4e26a1976649
+  - enabled: 1
+    path: Assets/Scenes/Pregunta10.unity
+    guid: e79d648801159f547b64d52589829a86
+  - enabled: 1
+    path: Assets/Scenes/Pregunta11.unity
+    guid: b0561cd0ea7d35549964c79abdc7a646
+  - enabled: 1
+    path: Assets/Scenes/Pregunta12.unity
+    guid: 3a956e6f5d76a7d4cb8aa935ca58ec3a
+  - enabled: 1
+    path: Assets/Scenes/Calificacion.unity
+    guid: 073df49377260b644a6c9144f965d018
   m_configObjects: {}
