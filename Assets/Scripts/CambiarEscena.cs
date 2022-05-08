@@ -7,7 +7,7 @@ public class CambiarEscena : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     {
-        OrganoActivo.info = true;
+        OrganoActivo.info = false;
         Debug.Log(RespuestaCorrecta.respuestasCorrectas);
         SceneManager.LoadScene(sceneName);
     }

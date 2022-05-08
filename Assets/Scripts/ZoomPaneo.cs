@@ -26,10 +26,10 @@ public class ZoomPaneo : MonoBehaviour
     {
 
         if(OrganoActivo.info == false) {
-            if(Input.touchCount == 0 ) {
+            // if(Input.touchCount == 0 ) {
                 
-                paneo = true;
-        }
+            //     paneo = true;
+            // }
         
         if(Input.touchCount == 1 ){
 

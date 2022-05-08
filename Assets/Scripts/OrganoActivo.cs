@@ -15,6 +15,7 @@ public class OrganoActivo : MonoBehaviour
     public GameObject infoUtero;
     public GameObject infoVejiga;
     public GameObject infoRinon;
+    public GameObject infoCorazon;
 
     public static bool info = false;
     // Start is called before the first frame update
@@ -134,6 +135,15 @@ public class OrganoActivo : MonoBehaviour
                     Debug.Log("SELECCIONASTE RIÑON");
                     
                     Instantiate(infoRinon, new Vector3(0,0,0), Quaternion.identity);
+                    info = true;
+                    Debug.Log(info);
+                }
+
+                if (hit.transform.tag == "Corazon" && info ==false )
+                {
+                    Debug.Log("SELECCIONASTE CORAZON");
+                    
+                    Instantiate(infoCorazon, new Vector3(0,0,0), Quaternion.identity);
                     info = true;
                     Debug.Log(info);
                 }

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class RespuestaCorrecta : MonoBehaviour
 {
     public static int respuestasCorrectas = 0;
+    
     // Start is called before the first frame update
     void Start()
     {

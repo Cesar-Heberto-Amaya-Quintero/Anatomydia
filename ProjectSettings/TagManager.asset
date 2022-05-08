@@ -17,6 +17,7 @@ TagManager:
   - Rinon
   - Utero
   - Pulmon
+  - Corazon
   layers:
   - Default
   - TransparentFX
